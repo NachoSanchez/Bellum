@@ -5,6 +5,10 @@ body {
     --secondary-color: #7D3AB0;
 }
 
+.logo {
+    margin-top: 5px;
+}
+
 .logo img {
     cursor: pointer;
     width: 130px;

@@ -33,7 +33,7 @@ main a {
     overflow: hidden;
     position: relative;
     text-align: start;
-    justify-content: start;
+    justify-content: flex-start;
     top: -20px;
     margin-top: 20px;
     /*Animation mask set-up*/
@@ -93,24 +93,6 @@ main a {
         transform: translateY(-110px);
     }
     
-}
-
-.button {
-    border-radius: 30px;
-    color: white;
-    cursor: pointer;
-    font-weight: 700;
-    padding: 7px 30px;
-}
-
-.primary-btn {
-    background-color: var(--secondary-color);
-}
-
-.primary-btn:hover, .primary-btn:active {
-    text-decoration: none;
-    color: white;
-    opacity: 0.9;
 }
 
 @media (max-width: 768px){

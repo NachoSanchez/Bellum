@@ -1,0 +1,31 @@
+body {
+    color: #666666;
+    --main-bg-color: #FFE3F3;
+    --primary-color: #FF0090;
+    --secondary-color: #7D3AB0;
+}
+
+.primary-btn {
+    color: white;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 6px 2em; 
+    text-decoration: none;
+}
+
+.primary-btn:hover {
+    opacity: .9;
+}
+
+.title {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 2em;
+}
+
+@media(max-width: 700px) {
+    .title {
+        text-align: center;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
 import styles from './Home.module.css'
+import { PrimaryButton } from '../Library'
 
 const Home = () => {
     return (
@@ -20,7 +21,12 @@ const Home = () => {
                             <li>Clínicas.</li>
                         </ul>
                     </div>
-                    <a href="#contacto" className={ styles.button + ' ' + styles['primary-btn']}>contactanos</a>
+
+                    <PrimaryButton 
+                        href={'#contacto'} 
+                        text={ 'contactanos' } 
+                    />
+                    
             </Container>
         </main>
     )
