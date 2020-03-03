@@ -1,4 +1,32 @@
+body {
+    color: #666666;
+    --main-bg-color: #FFE3F3;
+    --primary-color: #FF0090;
+    --secondary-color: #7D3AB0;
+}
+
 section {
     min-height: 100vh;
-    padding: 0 7%;
+    padding: 7%;
+}
+
+.card {
+    text-align: center;
+}
+
+.card svg {
+    color: var(--secondary-color);
+    font-size: 70px
+}
+
+.card p {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+    section {
+        padding-top: 10%;
+    }
 }
