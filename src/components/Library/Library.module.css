@@ -16,6 +16,8 @@ body {
 
 .primary-btn:hover {
     opacity: .9;
+    color: white;
+    text-decoration: none;
 }
 
 .title {
@@ -24,8 +26,36 @@ body {
     font-size: 2em;
 }
 
+.banner {
+    background-image: url('../../assets/img/banner.jpg');
+    background-blend-mode: screen;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+    padding: 1em 2em;
+    width: 100%
+}
+
+.banner h3 {
+    color: white;
+    text-shadow: 0px 0px 10px rgba(125,58,176,1);
+    -webkit-text-shadow: 0px 0px 10px rgba(125,58,176,1);
+    font-weight: 700;
+}
+
 @media(max-width: 700px) {
     .title {
+        text-align: center;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner a {
         text-align: center;
     }
 }

@@ -12,7 +12,7 @@ const ServiceList = () => {
     
     return(
         <Col md={7} sm={12}>
-            <Row className="py-3">
+            <Row className="py-5">
         
                         <Col className={ styles.card }>
                             <FontAwesomeIcon icon={faCog} />

@@ -17,7 +17,7 @@ export const PrimaryButton = props => {
 export const Title = props => {
     return (
         <Container>
-            <Row className="py-5">
+            <Row className="py-3">
                 <h1 className={ styles.title }>
                     { props.title }
                 </h1>
@@ -26,9 +26,9 @@ export const Title = props => {
     )
 }
 
-export const Banner = props => {
+export const BannerContact = props => {
     return (
-        <div styles={{backgroundImage: `url(${props.bg})`}} className={styles.banner}>
+        <div className={styles.banner}>
             <h3>{ props.text }</h3>
             <PrimaryButton href={props.href} text={props.btnText}/>
         </div>

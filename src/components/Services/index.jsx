@@ -1,11 +1,11 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-import { Title, Banner }  from '../Library'
+import { Title, BannerContact}  from '../Library'
 import Text from './Text'
 import ServiceList from './ServiceList'
 import styles from './Services.module.css'
-import bannerBg from '../../assets/img/banner.jpg'
+
 
 const Services = () => {
     const title = "¿Qué ofrecemos?";
@@ -24,8 +24,7 @@ const Services = () => {
                     <ServiceList/>
                 </Row>
                 <Row>
-                    <Banner 
-                        bg={ bannerBg }
+                    <BannerContact 
                         text={ banner.text }
                         href={ banner.href }
                         btnText={ banner.btnText }
