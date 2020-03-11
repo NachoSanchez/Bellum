@@ -21,3 +21,24 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+/*
+    Agregar clase con el nombre de la maquina sin especios
+    y declarar un bg-image con la url de la foto
+*/
+
+.fraxface {
+    background-image: url('./assets/img/frax_face.png');
+}
+
+.criolipolisis {
+    background-image: url('./assets/img/crio_m.png');
+}
+
+.velavelvet {
+    background-image: url('./assets/img/vela_velvet_m.png');
+}
+
+.hifu {
+    background-image: url('./assets/img/hifu_m.png');
+}

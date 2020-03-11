@@ -8,12 +8,15 @@ const Slider = () => {
     const equipments = useContext(EquipmentContext);
 
     return (
-        <Carousel indicators={ false }>
+        <Carousel 
+            indicators={ false }
+            className="justify-content-md-center"
+        >
             {
                 equipments.map( equipment => (
                     <Carousel.Item>
                         <Slide
-                            img={ 'img '+ equipment.img }
+                            img={ equipment.img }
                             name={ equipment.name }
                             description={ equipment.description }
                         />
