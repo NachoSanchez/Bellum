@@ -1,18 +1,16 @@
-import React,{ useContext } from 'react'
-import { EquipmentContext } from '../../contexts/EquipmentContext'
+import React from 'react'
+import Container from 'react-bootstrap/Container'
+import { Title } from '../Library'
+import Slider from './Slider'
 
 const Equipos = () => {
-    const equipments = useContext(EquipmentContext);
 
     return (
         <section id="equipos">
-            <ul>
-                {
-                    equipments.map( equipment => (
-                    <li key={ equipment.id }> { equipment.name } </li>
-                    ))
-                } 
-            </ul> 
+            <Title title="Nuestros Equipos" />
+            <Container>
+                <Slider />
+            </Container>
         </section>
     )
 }

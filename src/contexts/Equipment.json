@@ -1,5 +1,6 @@
 [
     {
+        "img": "fraxface",
         "id": 1,
         "name": "fraxface",
         "description": "Es un equipo de nueva generación que brinda resultados asombrosos. Su mecanismo de acción es por medio de su Radiofrecuencia Bipolar Fraccionada, funciona entregando la energía fraccionada de la radiofrecuencia mediante una matriz de electrodos. Produce un calor dirigido por medio del cual se estimula la capa mas interna de la piel (la dermis) no afectando prácticamente la capaz más superficial (la epidermis). El calor fraccionado que se genera en puntos de la dermis, actúa lesionado esos puntos y consecuentemente desencadenando una respuesta curativa por parte de esta capa interna de la piel. El tejido sano que rodea a los puntos quemados o lesionados de la dermis, puede ser también estimulado secundariamente por el calor, teniendo como efecto una aceleración del proceso curativo, y dándole a la piel un aspecto de piel firme y rejuvenecida.",
@@ -19,6 +20,7 @@
         ]
     },
     {
+        "img": "hifu",
         "id": 2,
         "name": "HIFU",
         "description":"El tratamiento HIFU consiste en la aplicación de un haz de ultrasonido de alta frecuencia y alta energía en la piel, para remodelar su tejido, mediante ablación térmica. En este proceso, los tejidos colindantes no quedan afectados, pues esta es una técnica no invasiva, que trae múltiples ventajas para el paciente.",
@@ -32,6 +34,7 @@
         ]
     },
     {
+        "img": "criolipolisis",
         "id": 3,
         "name": "Criolipolisis",
         "description": "La Criolipolisis es un tratamiento dermatológico/estético no invasivo, cuyo objetivo es destruir las células grasas (adipositos) bajando su temperatura para que se descompongan y sean eliminadas mediante fluidos, sin dañar el resto de las células de la piel. La temperaturas utilizadas son por debajo los cero grados.",
@@ -42,6 +45,7 @@
         "results":["Reducción de grasa sin dolor y sin riesgo."]
     },
     {
+        "img": "velavelvet",
         "id": 4,
         "name": "VelaVelvet",
         "description": "Velaslim Plus utiliza la luz infrarroja, sumada a la energía de radiofrecuencia y la succión. Esta combinación produce un nivel intenso de calor aplicado a las células adiposas, al tejido conectivo circundante y a las fibras dérmicas subyacentes de colágeno. La absorción y el calentamiento de la piel estimulan el aumento de la producción de colágeno y de elastina.",
