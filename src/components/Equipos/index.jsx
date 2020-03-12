@@ -8,11 +8,12 @@ const Equipos = () => {
 
     return (
         <section id="equipos" className={ styles.section }>
-            <Title title="Nuestros Equipos." />
-            <Container fluid>
+            {/* <Title title="Nuestros Equipos." /> */}
+            <Container>
                 <div className={styles.mask}>
                     <Slider />
                 </div>
+                <div className={ styles.fg }></div>
             </Container>
             
         </section>

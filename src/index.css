@@ -42,3 +42,10 @@ body {
 .hifu {
     background-image: url('./assets/img/hifu_m.png');
 }
+
+@media (max-width: 800px){
+
+    .fraxface {
+        background-image: url('./assets/img/frax_face_sm.png');
+    }
+}

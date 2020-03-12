@@ -18,7 +18,7 @@ const Slider = () => {
                         <Slide
                             img={ equipment.img }
                             name={ equipment.name }
-                            description={ equipment.description }
+                            shortDesc={ equipment.shortDesc }
                         />
                     </Carousel.Item>
                 ))
