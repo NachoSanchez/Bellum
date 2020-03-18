@@ -1,5 +1,5 @@
 import React, { Component, createContext } from 'react';
-import equipments from './Equipment.json'
+import equipments from './equipment.json'
 
 export const EquipmentContext = createContext();
 
