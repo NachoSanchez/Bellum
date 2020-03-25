@@ -9,26 +9,31 @@ import EquipmentContextProvider from './contexts/EquipmentContext'
 function App() {
   return (
     <div className="App">
-        <EquipmentContextProvider>
+      <EquipmentContextProvider>
+          
           <BrowserRouter>
-            <Route 
-              path="/" 
-              component={ Navigation }
-            />
-            <Route 
-              path="/" 
-              exact
-            >
+
+            <Route path="/">
+              <Navigation />
+            </Route>
+
+            <Route path="/" exact>
               <Home />
               <Services />
               <Equipos />
+            {/**
+              Aquí va el resto del sitio,
+              Contacto, Capacitaciones
+            */}
             </Route>
             <Route path="/equipos/:id">
-              <br/><br/><br/>
- 
+            {/**
+             Aqui va el route al detalle de cada equipo
+            */}
             </Route>
+
           </BrowserRouter>
-         </EquipmentContextProvider>
+      </EquipmentContextProvider>
     </div>
   );
 }
